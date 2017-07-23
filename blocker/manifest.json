@@ -1,0 +1,30 @@
+{
+  "name": "NSA Blocker",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "description": "This extension was created with the awesome extensionizr.com",
+  "homepage_url": "http://extensionizr.com",
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+    "browser_action": {
+      "default_icon": {               
+        "16": "icons/icon16.png",   
+        "48": "icons/icon48.png" 
+      },
+      "default_title": "NSA Blocker",   
+      "default_popup": "popup.html"  
+    },
+  "default_locale": "en",
+  "permissions": [
+    "history",
+    "management",
+    "tabs",
+    "https://*.facebook.com/*",
+    "webRequest",
+    "https://www.facebook.com/*",
+    "http://www.facebook.com/*"
+  ]
+}
